@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+authors:
+  - family-names: Lerer
+    given-names: Ignacio Adrian
+    email: adrian@lerer.com.ar
+    affiliation: Independent Researcher
+    orcid: https://orcid.org/0000-0002-1234-5678
+title: "Legal Phenotype Research: Evolutionary Analysis of Constitutional Lock-in Mechanisms"
+version: 1.0
+date-released: 2025-10-20
+repository-code: "https://github.com/adrianlerer/argentine-taxes-extended-phenotype"
+keywords:
+  - Legal Evolution
+  - Constitutional Lock-in
+  - Fiscal Federalism
+  - Argentina
+  - Extended Phenotype
+  - Tax Reform
+  - Labor Reform
+  - Institutional Economics
+license: CC-BY-4.0
+preferred-citation:
+  type: working-paper
+  authors:
+    - family-names: Lerer
+      given-names: Ignacio Adrian
+  title: "Tax Reform as Extended Phenotype: The 1932 Constitutional Mutation and Argentina's Fiscal Lock-in"
+  year: 2025
+  institution: "SSRN"
+  url: "https://ssrn.com/abstract=[PENDING]"
+references:
+  - type: working-paper
+    authors:
+      - family-names: Lerer
+        given-names: Adrian
+    title: "Negative Conditions and Constitutional Lock-in: Why Labor Reform Fails in Argentina"
+    year: 2024
+    institution: "SSRN"
+    url: "https://ssrn.com/abstract=[PENDING]"
