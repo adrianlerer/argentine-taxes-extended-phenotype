@@ -1,164 +1,229 @@
 # Reality Filter Guidelines
-## Confidence Tagging System for Academic Research
+## Confidence Tagging System for Research Claims
 
 **Version**: 1.0  
 **Developed by**: Adrian Lerer (2025)  
-**Purpose**: Transparent epistemology in legal-evolutionary research
+**Purpose**: Prevent hallucinations and clarify epistemic status of research claims
 
 ---
 
-## Motivation
+## Problem Statement
 
-Academic research on historical legal systems faces a fundamental challenge: **not all claims have equal evidential support**. Some statements are directly verified from primary sources; others are reasonable inferences; still others are provisional conjectures awaiting confirmation.
+Academic research increasingly uses AI assistance, creating risk of:
+1. **Hallucinated sources** - Citations to non-existent papers/cases
+2. **Paraphrased distortions** - Secondary sources misrepresenting primary sources
+3. **Inferential leaps** - Conclusions presented as facts
+4. **Unverified data** - Statistics cited without source verification
 
-Traditional academic writing often obscures these distinctions, presenting all claims with equal confidence. The **Reality Filter** makes epistemological status explicit through systematic tagging.
-
----
-
-## Tag System
-
-### [VERIFIED] - Highest Confidence
-
-**Definition**: Claim directly confirmed by accessing primary source.
-
-**Examples**:
-- ✅ "Law 11,682 was enacted on December 30, 1932" [VERIFIED: Boletín Oficial 02/01/1933]
-- ✅ "Article 67 inc. 2 CN 1853 states 'por tiempo determinado'" [VERIFIED: Constitutional text accessed]
-- ✅ "USA Amendment XVI ratified February 3, 1913" [VERIFIED: National Archives]
-
-**Requirements**: 
-- Direct access to original document
-- Exact citation with URL (if digitally available)
-- Date of access recorded
+**Reality Filter** is a tagging system that makes epistemic status **explicit and verifiable**.
 
 ---
 
-### [PARAPHRASE] - High Confidence
+## Tag Taxonomy
 
-**Definition**: Claim reconstructed from secondary academic sources with strong consensus.
+### `[VERIFIED]` - Highest confidence
 
-**Examples**:
-- ✅ "Alberdi designed fiscal system prioritizing indirect taxes" [PARAPHRASE: Consensus in Porto 2004, Rezk 2018]
-- ✅ "1932 income tax enacted in Great Depression context" [PARAPHRASE: Standard historical account]
+**Definition**: Primary source directly accessed and quoted/paraphrased  
+**Requirement**: Must provide URL, page number, or archival reference  
+**Example**:
+> "Article 75 inc. 2 CN states: 'Imponer contribuciones directas, por tiempo determinado'" [VERIFIED: Constitución Nacional Argentina 1994, Art. 75 inc. 2, http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/804/norma.htm]
 
-**Requirements**:
-- Minimum 2 academic sources agree
-- Sources are peer-reviewed or authoritative
-- No contradictory evidence found
-
----
-
-### [INFERENCE] - Medium Confidence
-
-**Definition**: Logical conclusion from documented premises, but not directly stated in sources.
-
-**Examples**:
-- ✅ "AFIP bureaucrats have interest in maintaining income tax" [INFERENCE: From employment data + public choice theory]
-- ✅ "Provincial governors opposed fiscal centralization in 1994" [INFERENCE: From voting records + stated positions]
-
-**Requirements**:
-- Premises are [VERIFIED] or [PARAPHRASE]
-- Logical connection is explicit
-- Alternative explanations considered
+**Use cases**:
+- Constitutional/statutory text
+- Court cases with full text accessed
+- Official government statistics with URL
+- Historical documents digitized
 
 ---
 
-### [ESTIMATION] - Medium Confidence
+### `[PARAPHRASE]` - High confidence
 
-**Definition**: Quantitative calculation based on verified data, but involving assumptions.
+**Definition**: Reconstructed from reliable secondary academic sources  
+**Requirement**: Cite academic paper/book that cites primary source  
+**Example**:
+> "Alberdi argued that provinces should monopolize direct taxation" [PARAPHRASE: Porto (2004), citing Alberdi's Sistema Económico (1854), Chapter III]
 
-**Examples**:
-- ✅ "Tax professionals earn ~$X billion from income tax compliance" [ESTIMATION: From AFIP data × average fees]
-- ✅ "Probability of reform 2025-2027 < 2%" [ESTIMATION: Bayesian calculation from historical success rates]
-
-**Requirements**:
-- Base data is [VERIFIED]
-- Assumptions explicitly stated
-- Sensitivity analysis performed (if feasible)
+**Use cases**:
+- Academic consensus on historical facts
+- Court case holdings summarized in treatises
+- Statistical data aggregated by research institutions
 
 ---
 
-### [CONJECTURE] - Low Confidence
+### `[INFERENCE]` - Medium confidence
 
-**Definition**: Provisional hypothesis awaiting empirical verification.
+**Definition**: Logical conclusion from documented premises  
+**Requirement**: Show reasoning chain explicitly  
+**Example**:
+> "Since Law 11,682 expired Dec 31, 1934 [VERIFIED: Law text] and was renewed annually 1935-1973 [VERIFIED: AFIP historical data], the requirement 'for determinate time' was violated for 39 years before formal replacement" [INFERENCE: Violation = operation beyond declared expiration without constitutional amendment]
 
-**Examples**:
-- ⚠️ "If Milei attempts constitutional reform, provinces will veto" [CONJECTURE: Prediction not yet tested]
-- ⚠️ "Judicial legitimation was intentional strategy" [CONJECTURE: Motive inference without direct evidence]
+**Use cases**:
+- Legal interpretations
+- Causal claims with documented correlation
+- Comparative conclusions
 
-**Requirements**:
-- Explicitly labeled as hypothesis
-- Falsification criteria stated
-- Alternative hypotheses acknowledged
+---
+
+### `[ESTIMATION]` - Medium-low confidence
+
+**Definition**: Calculation based on verified data with stated assumptions  
+**Requirement**: Show formula and data sources  
+**Example**:
+> "National income tax represents ~40% of provincial revenues via coparticipation transfers [ESTIMATION: Calculated as (Income tax collection 2024: $26 trillion [VERIFIED: MECON] × Average coparticipation rate 0.45 [VERIFIED: Law 23.548]) / Total provincial revenues $51 trillion [VERIFIED: ICiudad 2024]]"
+
+**Use cases**:
+- Derived statistics
+- Projections from historical trends
+- Aggregations across multiple sources
+
+---
+
+### `[CONJECTURE]` - Low confidence
+
+**Definition**: Provisional hypothesis requiring verification  
+**Requirement**: Explicitly state speculative nature + falsification criteria  
+**Example**:
+> "We conjecture that AFIP bureaucratic resistance explains failure of 2017 Consenso Fiscal [CONJECTURE: No documentary evidence found; requires interviews with AFIP officials or internal memos. Falsification: Evidence of AFIP support for reform would disprove this hypothesis]"
+
+**Use cases**:
+- Explanatory hypotheses without direct evidence
+- Motivational attributions
+- Future predictions
+
+---
+
+### `[FLAGGED]` - Requires verification
+
+**Definition**: Claim found in sources but not yet verified  
+**Requirement**: Mark for follow-up verification  
+**Example**:
+> "Supreme Court case Nordenskjöld (1984) established labor progressivity doctrine [FLAGGED: Commonly cited but full text not accessed; verification pending]"
+
+**Use cases**:
+- Commonly repeated claims requiring primary source check
+- Statistical claims without source metadata
+- Legal doctrines attributed without case citation
 
 ---
 
 ## Application Guidelines
 
-### When to Tag
+### Rule 1: **Every empirical claim MUST have a tag**
 
-**MANDATORY tagging**:
-1. All quantitative claims
-2. All historical assertions
-3. All causal claims
-4. All predictions
+❌ **Bad**: "Argentina's income tax violates the Constitution"  
+✅ **Good**: "Argentina's income tax violates Art. 75 inc. 2 requirement of 'determinate time'" [VERIFIED: Constitution text + Law 11,682 permanent operation since 1932]
 
-**OPTIONAL tagging** (but recommended):
-- Routine background facts (e.g., "Argentina is a federal republic")
-- Direct quotations (source citation is sufficient)
+### Rule 2: **Tag at sentence level, not paragraph level**
 
----
+Allows readers to distinguish verified facts from inferences within same argument.
 
-### How to Tag in Text
+### Rule 3: **Upgrade tags when possible**
 
-**In-line** (short mentions):
-> "The 1932 income tax was declared temporary until December 31, 1934 [VERIFIED: Law 11,682 text]."
+`[FLAGGED]` → `[VERIFIED]` after accessing primary source  
+`[CONJECTURE]` → `[INFERENCE]` after finding supporting evidence
 
-**Footnote** (detailed claims):
-> "Argentina's tax pressure in 2024 reached 29.3% of GDP.¹"
->
-> ¹[ESTIMATION] Calculated from MECON 2024 data ($X trillion collection / $Y trillion GDP). Assumes INDEC GDP figures are accurate (contested by some analysts).
+### Rule 4: **Degrade tags when necessary**
 
-**Appendix** (complex inferences):
-> "We estimate AFIP bureaucrats' collective interest in income tax preservation at $Z billion annually [ESTIMATION - see Appendix B for calculation details]."
+If citation URL becomes dead link: `[VERIFIED]` → `[PARAPHRASE]`  
+If calculation assumption questioned: `[ESTIMATION]` → `[CONJECTURE]`
 
 ---
 
-## Benefits of Reality Filter
+## Examples from Research Papers
 
-1. **Transparency**: Readers know epistemic status immediately
-2. **Replication**: Other researchers can verify high-confidence claims first
-3. **Criticism**: Low-confidence claims invite empirical testing
-4. **Honesty**: Prevents overclaiming beyond evidence
+### Tax Reform Paper
 
----
+**Claim**: "Law 11,682 was sanctioned December 30, 1932"  
+**Tag**: `[VERIFIED: Boletín Oficial 02/01/1933, confirmed in Biblioteca del Congreso archives]`
 
-## Limitations
+**Claim**: "93 years of continuous constitutional violation"  
+**Tag**: `[INFERENCE: 1932-2025 = 93 years; violation = operation beyond 'determinate time' without amendment]`
 
-1. **Subjectivity**: Tag assignment involves judgment
-2. **Granularity**: Five tags may not capture all nuances
-3. **Overhead**: Adds work to research process
+**Claim**: "Five actors create ESE: AFIP, provinces, government, professionals, Court"  
+**Tag**: `[INFERENCE: Game-theoretic analysis of documented incentives; requires formal modeling for full verification]`
 
 ---
 
-## Comparison to Traditional Methods
+### Labor Reform Paper
 
-| Traditional | Reality Filter |
-|-------------|----------------|
-| "Studies show..." (ambiguous) | "Studies show... [PARAPHRASE: Smith 2020, Jones 2021]" |
-| "It is likely that..." (vague) | "It is likely that... [INFERENCE: from X + Y data]" |
-| "X will probably happen" (unfalsifiable) | "X will probably happen [CONJECTURE: testable by 2027]" |
+**Claim**: "Aquino (2004) does NOT cite Nordenskjöld"  
+**Tag**: `[VERIFIED: Fallos 327:3753 full text accessed via SAIJ, no citation found to Nordenskjöld in any considerando]`
+
+**Claim**: "Brazil succeeded because lacked ultraactivity doctrine"  
+**Tag**: `[PARAPHRASE: Mendes (2012) comparing Brazilian and Argentine labor law; + INFERENCE: Comparative analysis of reform outcomes]`
+
+---
+
+## Integration with RootFinder Protocol
+
+RootFinder genealogical analysis produces `[VERIFIED]` tags for citations:
+
+**Verified citation**: "Madorrán cites Aquino 3 times"  
+**Tag**: `[VERIFIED: Madorrán Fallos 330:2988, Considerandos 4°, 7°, 8° explicitly cite Aquino 327:3753]`
+
+**Absence of citation**: "Aquino does NOT cite Nordenskjöld"  
+**Tag**: `[VERIFIED BY ABSENCE: Full text search of Aquino 327:3753 returns zero matches for 'Nordenskjöld']`
+
+---
+
+## Quality Control Checklist
+
+Before publication, check:
+
+- [ ] Every empirical claim has Reality Filter tag
+- [ ] All `[VERIFIED]` claims have accessible sources (URL or archive reference)
+- [ ] All `[INFERENCE]` claims show reasoning explicitly
+- [ ] All `[CONJECTURE]` claims state falsification criteria
+- [ ] No `[FLAGGED]` claims remain (upgrade or remove)
+- [ ] Statistical `[ESTIMATION]` show calculation formulas
+
+---
+
+## Comparison with Traditional Academic Citations
+
+| Traditional Citation | Reality Filter |
+|---------------------|----------------|
+| "Alberdi (1854) argued..." | `[PARAPHRASE]` or `[VERIFIED]` depending on direct access |
+| No source given | **Not acceptable** - requires tag |
+| "It is well known that..." | Requires `[CONJECTURE]` or upgrade to `[PARAPHRASE]` |
+| Secondary citation: "X cited in Y" | Use `[PARAPHRASE: Y, citing X]` |
+
+**Advantage**: Reality Filter makes **epistemic status** explicit, not just attribution.
 
 ---
 
 ## Citation
 
-If you use Reality Filter methodology, cite as:
+If you use Reality Filter in your research, cite as:
+
+**APA**:
 ```
-Lerer, A. (2025). Reality Filter Guidelines: Confidence Tagging System for Academic Research. 
-GitHub: https://github.com/adrianlerer/argentine-taxes-extended-phenotype/methodology/Reality_Filter_Guidelines.md
+Lerer, A. (2025). Reality Filter Guidelines: Confidence Tagging System for Research Claims. 
+GitHub: https://github.com/adrianlerer/argentine-taxes-extended-phenotype/
+```
+
+**BibTeX**:
+```bibtex
+@misc{lerer2025realityfilter,
+  author = {Lerer, Adrian},
+  title = {Reality Filter Guidelines: Confidence Tagging System for Research Claims},
+  year = {2025},
+  url = {https://github.com/adrianlerer/argentine-taxes-extended-phenotype/methodology/Reality_Filter_Guidelines.md}
+}
 ```
 
 ---
 
-**License**: CC BY 4.0
+## Future Developments
+
+**Version 2.0 (planned)**:
+- Color-coding for visualization (green = VERIFIED, yellow = INFERENCE, red = CONJECTURE)
+- Automated tag extraction for bibliography generation
+- Integration with Zotero/Mendeley citation managers
+- Browser extension for real-time fact-checking
+
+---
+
+**License**: CC BY 4.0  
+**Maintained by**: Adrian Lerer (adrian@lerer.com.ar)  
+**Last updated**: October 2025

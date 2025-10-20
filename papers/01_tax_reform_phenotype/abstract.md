@@ -1,10 +1,6 @@
-# TAX REFORM AS EXTENDED PHENOTYPE: Abstract for SSRN
+# Tax Reform as Extended Phenotype: Abstract for SSRN
 
-**Author**: Ignacio Adrian Lerer  
-**Date**: October 2025  
-**Word count**: 250 words (SSRN optimized)
-
----
+## Abstract
 
 This paper applies evolutionary legal theory to explain why Argentina's tax system has operated for 93 years in continuous violation of Article 75 inc. 2 of the National Constitution, which requires national direct taxes to be established "for determinate time."
 
@@ -25,3 +21,11 @@ This paper applies evolutionary legal theory to explain why Argentina's tax syst
 **Keywords**: Legal Evolution, Fiscal Federalism, Argentina, Constitutional Mutation, Extended Phenotype, Tax Reform, Path Dependence
 
 **JEL Codes**: H77 (Intergovernmental Relations; Federalism), K34 (Tax Law), B52 (Institutional and Evolutionary Economics), N46 (Latin America: Government, Law and Regulation)
+
+---
+
+**Word Count**: ~23,500 words  
+**Author**: Ignacio Adrian Lerer  
+**Institution**: Independent Researcher  
+**Contact**: adrian@lerer.com.ar  
+**SSRN Profile**: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7512489

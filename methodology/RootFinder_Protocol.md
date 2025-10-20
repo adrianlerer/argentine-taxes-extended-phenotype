@@ -55,7 +55,7 @@ Tag each finding:
 
 ---
 
-## Application Example: Argentine Income Tax (TAREA 3)
+## Application Example: Argentine Income Tax (Tax Reform Paper)
 
 **Target**: How CSJN legitimized permanent national direct tax (1932-2025)
 
@@ -78,22 +78,100 @@ Tag each finding:
 
 ---
 
+## Application Example: Labor Reform (Negative Conditions Paper)
+
+**Target**: Evolution of Art. 14 bis "progressive" doctrine
+
+**Key Finding**: Genealogy commonly cited as "Vizzoti descends from Aquino, which descends from Nordenskjöld" is **INCORRECT**.
+
+**Verified Genealogy**:
+```
+De Luca (1969) - Improper stability
+    |
+    [20 year gap]
+    |
+Gunther (1984) - Alterum non laedere
+    |
+    [20 year gap]
+    |
+SIMULTANEOUS DYAD (2004):
+├─ Vizzoti (14/09/2004) → Does NOT cite Nordenskjöld
+└─ Aquino (21/09/2004) → Does NOT cite Nordenskjöld
+    |
+Milone (26/10/2004)
+    |
+Madorrán (03/05/2007)
+```
+
+**Methodological insight**: Direct citation verification revealed that doctrinal narrative ("Nordenskjöld as foundation") is a **post-hoc reconstruction** not supported by actual case citations.
+
+---
+
+## Advantages
+
+1. **Falsifiability**: Claims about doctrinal lineage can be verified/falsified by checking actual citations
+2. **Discovers silences**: Identifies cases that SHOULD have been cited but weren't
+3. **Maps doctrinal mutations**: Shows when and how legal reasoning shifts
+4. **Comparative analysis**: Enables cross-country comparison of doctrine evolution
+
+---
+
 ## Limitations
 
-1. **Access barriers**: Not all historical cases digitized (pre-1970 especially)
+1. **Access barriers**: Not all historical cases digitized (pre-1970 especially in Argentina)
 2. **Language dependence**: Works best with systematic citation practices (common law > civil law)
 3. **Interpretation bias**: Researcher must infer doctrine from limited text
+4. **Missing oral traditions**: Some doctrines spread through legal culture without formal citation
+
+---
+
+## Tools and Resources
+
+**Recommended databases**:
+- **Argentina**: SAIJ (Sistema Argentino de Información Jurídica) - http://www.saij.gob.ar
+- **USA**: Westlaw, LexisNexis, Google Scholar (case law)
+- **Brazil**: STF (Supremo Tribunal Federal) - https://portal.stf.jus.br
+- **Citation analysis**: Manual extraction or use tools like Casetext, Ravel Law
+
+**Visualization**:
+- Graphviz for citation networks
+- D3.js for interactive trees
+- Excel/CSV for tabular genealogies
 
 ---
 
 ## Citation
 
 If you use RootFinder Protocol, cite as:
+
+**APA**:
 ```
 Lerer, A. (2025). RootFinder Protocol: Genealogical Analysis of Legal Precedents. 
-GitHub: https://github.com/adrianlerer/argentine-taxes-extended-phenotype/methodology/RootFinder_Protocol.md
+GitHub: https://github.com/adrianlerer/argentine-taxes-extended-phenotype/
+```
+
+**BibTeX**:
+```bibtex
+@misc{lerer2025rootfinder,
+  author = {Lerer, Adrian},
+  title = {RootFinder Protocol: Genealogical Analysis of Legal Precedents},
+  year = {2025},
+  url = {https://github.com/adrianlerer/argentine-taxes-extended-phenotype/methodology/RootFinder_Protocol.md}
+}
 ```
 
 ---
 
-**License**: CC BY 4.0
+## Future Developments
+
+**Version 2.0 (planned)**:
+- Automated citation extraction from PDFs
+- Machine learning classification of doctrinal shifts
+- Network analysis metrics (betweenness centrality, PageRank for case importance)
+- Integration with Reality Filter confidence scoring
+
+---
+
+**License**: CC BY 4.0  
+**Maintained by**: Adrian Lerer (adrian@lerer.com.ar)  
+**Last updated**: October 2025
