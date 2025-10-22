@@ -1,0 +1,23 @@
+year,institution,program_type,amount_usd_millions,disbursed_usd_millions,duration_months,government,president,purpose,primary_conditionality_focus,completion_status
+1992,IMF,Extended Fund Facility,2900,2900,36,Menem,Carlos Menem,Support Convertibility Plan,VAT reform + privatization,Completed
+1996,IMF,Stand-By Arrangement,1000,1000,12,Menem,Carlos Menem,Short-term balance of payments,Social security reform,Completed
+1996,IDB,Provincial Fiscal Reform,600,600,48,Menem,Carlos Menem,Provincial debt restructuring,Coparticipación agreements,Partial
+2000,IMF,Stand-By Arrangement,7200,5100,36,De la Rúa,Fernando de la Rúa,Fiscal consolidation,Zero deficit law,Failed - suspended 2001
+2001,IMF,SBA Augmentation,13700,8500,0,De la Rúa,Fernando de la Rúa,Emergency support,Fiscal adjustment,Failed - default Dec 2001
+2000,IDB,Tax Administration,800,800,60,De la Rúa,Fernando de la Rúa,AFIP modernization,VAT enforcement,Completed
+2003,IMF,Stand-By Arrangement,12800,5400,36,Kirchner,Néstor Kirchner,Post-default restructuring,Debt sustainability,Suspended 2006
+2003,IDB,Emergency Social Protection,800,800,36,Kirchner,Néstor Kirchner,Unemployment programs,Jefes y Jefas program,Completed
+2006,IMF,Early Repayment,-9800,-9800,0,Kirchner,Néstor Kirchner,Full IMF debt repayment,N/A - repayment,Completed
+2008,IDB,Infrastructure Recovery,1200,1200,72,Fernández de Kirchner,Cristina Fernández,Energy + transport,Project implementation,Completed
+2016,IDB,Fiscal Reform Support,1500,1500,60,Macri,Mauricio Macri,Tax simplification,Subsidy reduction,Partial
+2018,IMF,Stand-By Arrangement,50000,32100,36,Macri,Mauricio Macri,Currency crisis response,Fiscal consolidation,Failed - program suspended
+2018,IMF,SBA Augmentation (Oct),7000,12000,0,Macri,Mauricio Macri,Additional emergency support,Primary balance targets,Failed - political transition
+2019,IDB,Provincial Fiscal Strengthening,500,500,48,Macri/Fernández,Mauricio Macri,Subnational debt sustainability,Provincial fiscal responsibility,Partial
+2020,IDB,COVID Emergency,1200,1200,24,Fernández,Alberto Fernández,Pandemic response,Health + social protection,Completed
+2022,IMF,Extended Fund Facility,44000,21500,30,Fernández,Alberto Fernández,2018 debt restructuring,Gradual fiscal adjustment,Partial - multiple missed targets
+2023,IDB,Provincial Management,800,800,48,Fernández,Alberto Fernández,Capacity building,Subnational reform,Ongoing
+2024,IDB,Tax Administration (ARCA),400,400,36,Milei,Javier Milei,Revenue agency modernization,Collection efficiency,Ongoing
+2025,IMF,Extended Fund Facility (new),20000,12000,48,Milei,Javier Milei,New program + fresh money,Aggressive fiscal consolidation,Ongoing
+2025,IDB,Fiscal/Regulatory Reform,1200,600,60,Milei,Javier Milei,Tax simplification,Ingresos Brutos elimination,Ongoing
+2025,IDB,Macroeconomic Stability,500,500,24,Milei,Javier Milei,Balance of payments,FX regime reform,Ongoing
+2025,IDB,Strategic Agreement,10000,0,48,Milei,Javier Milei,Public + private sector,Comprehensive reform,Committed (future disbursements)

@@ -1,0 +1,31 @@
+program_year,institution,conditionality_category,specific_requirement,target_deadline,compliance_status,compliance_percent,notes,federal_veto_involved
+1992,IMF,Tax Reform,Implement VAT at 18%,1991-04-01,Completed,100,Convertibility Plan core component,No - federal authority
+1996,IMF,Social Security,Privatize pension system (AFJP),1994-07-01,Completed,100,Created individual accounts,No - federal authority
+1996,IDB,Provincial Fiscal,Provincial debt limits (Pacto Fiscal I),1993-12-31,Failed,20,Provinces violated limits by 2000,Yes - 24 provinces
+2000,IMF,Fiscal Consolidation,Zero primary deficit target,2001-12-31,Failed,0,Deficit remained 2.5% GDP in 2001,No - federal budget
+2000,IMF,Tax Simplification,Eliminate distortionary provincial taxes,2002-12-31,Failed,0,Ingresos Brutos not reformed,Yes - provinces blocked
+2000,IDB,Tax Administration,AFIP modernization (e-filing),2002-06-30,Completed,100,Electronic filing system launched,No - federal authority
+2001,IMF,Fiscal Adjustment,Reduce public sector wages 13%,2001-07-01,Partial,50,Federal wages cut but provinces resisted,Yes - provincial employees
+2003,IMF,Debt Sustainability,Primary surplus 3% GDP,2004-12-31,Completed,100,Achieved via export taxes,No - federal policy
+2003,IDB,Social Protection,Jefes y Jefas unemployment program,2003-12-31,Completed,100,Reached 2 million beneficiaries,No - federal program
+2006,IDB,Infrastructure,Energy sector investment targets,2008-12-31,Partial,60,Some projects delayed,No - federal projects
+2016,IDB,Subsidy Reform,Reduce energy subsidies 40%,2018-12-31,Partial,70,Achieved but politically costly,No - federal budget
+2018,IMF,Primary Balance,Primary deficit -2.7% GDP (2018),2018-12-31,Completed,100,Target met but unsustainable,No - federal budget
+2018,IMF,Primary Balance,Primary balance 0% GDP (2020),2020-12-31,Failed,30,Deficit remained -3.1% GDP,No - federal budget but COVID shock
+2018,IMF,Tax Simplification,Eliminate export taxes,2019-12-31,Failed,0,Export taxes increased after Aug 2019 election,No - federal but political reversal
+2018,IMF,Provincial Tax Reform,Phase out Ingresos Brutos (turnover tax),2021-12-31,Failed,0,Provinces refused revenue loss,Yes - 24 provinces blocked
+2018,IMF,Central Bank,Zero monetary financing of deficits,2018-12-31,Completed,100,No money printing 2018-2020,No - Central Bank independence
+2019,IDB,Provincial Fiscal,Subnational debt limits (Consenso Fiscal 2.0),2020-12-31,Partial,30,Buenos Aires opted out,Yes - provincial autonomy
+2020,IDB,COVID Response,Expand healthcare capacity 25%,2020-12-31,Completed,100,Emergency health infrastructure,No - federal + provincial cooperation
+2022,IMF,Fiscal Targets,Primary deficit -2.5% GDP (2022),2022-12-31,Completed,100,Target met,No - federal budget
+2022,IMF,Fiscal Targets,Primary deficit -1.9% GDP (2023),2023-12-31,Failed,60,Deficit -2.9% GDP achieved,No - federal budget
+2022,IMF,Subsidy Phase-out,Reduce energy subsidies 50% over 5 years,2027-12-31,Partial,40,Political resistance slowed progress,No - federal but provincial political pressure
+2022,IMF,Monetary Policy,Reduce Central Bank financing 50%,2023-12-31,Partial,70,Progress made but targets missed,No - Central Bank authority
+2022,IMF,Tax Simplification,Tax system reform (again),2024-12-31,Failed,10,ARCA created but Ingresos Brutos unchanged,Yes - provinces refused
+2025,IMF,Primary Balance,Primary surplus 0.5% GDP (2025),2025-12-31,Ongoing,NA,Milei government on track (Q1 2025 surplus),No - federal budget
+2025,IMF,Subsidy Elimination,Complete elimination of energy subsidies,2026-12-31,Ongoing,NA,70% reduction achieved by Q3 2025,No - federal but provincial protests
+2025,IMF,FX Regime,End capital controls,2026-06-30,Ongoing,NA,Gradual liberalization planned,No - federal authority
+2025,IMF,Ingresos Brutos,Provincial turnover tax elimination,2028-12-31,Ongoing,NA,Negotiations with provinces underway,Yes - 24 provinces must agree
+2025,IDB,Tax Reform,Simplify VAT + income tax filing,2026-12-31,Ongoing,NA,ARCA modernization in progress,No - federal authority
+2025,IDB,Federal Fiscal Pact,New coparticipación law,2027-12-31,Ongoing,NA,Constitutional amendment may be required,Yes - provinces + Congress
+2025,IDB,Labor Market,Reduce severance costs 50%,2027-12-31,Ongoing,NA,Ley Bases partially approved,No - federal labor law (union resistance)
