@@ -1,0 +1,28 @@
+reform_id,year,reform_name,category,cli_score,cli_tv,cli_ja,cli_th,cli_pw,cli_ad,outcome,success,public_support,poll_n,key_blocker,legal_challenges,estimated_revenue,rent_seeking_roi
+1,1995,Ley de Responsabilidad Fiscal,Copart,0.82,0.91,0.72,0.45,0.68,0.95,Failed,0,58,1500,Provincial veto,0,-50,0
+2,1996,Pacto Federal I,Copart,0.82,0.91,0.72,0.45,0.68,0.95,Failed,0,61,1800,Provincial veto,0,-120,0
+3,1997,Pacto Federal II (Deadline),Copart,0.82,0.91,0.72,0.45,0.68,0.95,Failed,0,59,2100,Provincial veto,2,-180,5150000
+4,1999,Ley de Reforma Tributaria (Menem),Income,0.74,0.84,0.82,0.52,0.75,0.68,Failed,0,52,2500,CSJN 33% rule,12,-230,0
+5,2000,Rebaja de Contribuciones Patronales,Payroll,0.83,0.78,0.88,0.92,0.75,0.68,Failed,0,67,2200,ILO treaties,8,-1200,389583
+6,2001,Déficit Cero (López Murphy),Income,0.78,0.84,0.82,0.68,0.75,0.68,Failed,0,34,1900,ICESCR non-regression,3,+800,0
+7,2002,Unificación Impuesto a las Ganancias,Income,0.71,0.82,0.78,0.52,0.72,0.68,Partial,0.5,64,2400,CSJN modified not blocked,7,+120,0
+8,2003,Reforma Previsional (Ley 25.994),Payroll,0.84,0.78,0.88,0.92,0.82,0.68,Failed,0,48,2100,ILO Convention 102,11,-450,0
+9,2004,Pacto Federal III,Copart,0.82,0.91,0.72,0.45,0.68,0.95,Failed,0,63,2300,Provincial veto,0,-95,0
+10,2008,Retenciones Móviles (Res. 125),Income,0.72,0.81,0.74,0.52,0.72,0.68,Failed,0,51,3500,Political (Senate tie),5,+2100,0
+11,2009,Reforma Impuesto a las Ganancias,Income,0.76,0.84,0.82,0.58,0.75,0.68,Failed,0,69,2800,CSJN 33% rule,23,-340,0
+12,2012,Blanqueo Fiscal,Wealth,0.68,0.72,0.78,0.52,0.68,0.68,Success,1,43,2600,Low CLI enabled,4,+850,0
+13,2015,Pacto Federal IV,Copart,0.82,0.91,0.72,0.45,0.68,0.95,Failed,0,57,2400,Provincial veto,1,-140,0
+14,2016,Reforma Tributaria (Macri),Multiple,0.77,0.83,0.81,0.65,0.74,0.72,Failed,0,62,3100,Congress fragmentation,18,-520,0
+15,2017,Pacto Federal V,Copart,0.82,0.91,0.72,0.45,0.68,0.95,Partial,0.5,59,2900,Partial provincial agreement,3,-85,0
+16,2017,Reducción Contribuciones Patronales,Payroll,0.83,0.78,0.88,0.92,0.75,0.68,Failed,0,71,2700,ILO treaties,14,-980,0
+17,2018,Reforma Previsional II,Payroll,0.85,0.78,0.88,0.92,0.85,0.72,Failed,0,38,2500,CSJN + ILO,27,-1200,0
+18,2018,Consenso Fiscal (IIBB),Turnover,0.76,0.82,0.74,0.52,0.78,0.82,Partial,0.5,66,2800,Provincial partial compliance,6,-180,0
+19,2019,Impuesto a la Riqueza,Wealth,0.72,0.68,0.88,0.52,0.82,0.68,Failed (post-enactment),0,54,2900,CSJN confiscation challenges,47,+300,0
+20,2020,Aporte Solidario (COVID),Wealth,0.68,0.68,0.85,0.52,0.78,0.68,Success (temporary),1,61,3200,Emergency justified CLI override,12,+287,0
+21,2021,Pacto Federal VI,Copart,0.82,0.91,0.72,0.45,0.68,0.95,Failed,0,58,2600,Provincial veto,0,-110,0
+22,2021,Reforma Impuesto a las Ganancias IV,Income,0.78,0.84,0.82,0.62,0.78,0.68,Failed,0,73,2700,CSJN 33% rule,31,-410,0
+23,2022,Monotributo Reforma,Income,0.65,0.72,0.68,0.48,0.65,0.68,Success (minor),1,68,2500,Low CLI + minor scope,2,+95,0
+24,2023,Pacto Federal VII (Milei),Copart,0.82,0.91,0.72,0.45,0.68,0.95,Failed,0,62,2800,Provincial veto,1,-125,0
+25,2024,Ley Bases (Capítulo Fiscal),Multiple,0.79,0.85,0.82,0.68,0.76,0.72,Failed,0,59,3000,Congress modified to remove,9,-730,0
+26,2024,Blanqueo II,Wealth,0.66,0.68,0.72,0.48,0.68,0.68,Success (partial),1,57,2700,Low CLI + limited scope,8,+420,0
+27,2025,DNU 70/2023 (Tax Provisions),Multiple,0.81,0.88,0.82,0.72,0.78,0.72,Failed,0,64,2900,CSJN Camaronera doctrine,15,-890,0
