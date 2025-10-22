@@ -1,0 +1,11 @@
+financial_year,cess_collected_inr_crore,cess_collected_usd_billions,compensation_paid_inr_crore,compensation_paid_usd_billions,surplus_deficit_inr_crore,automobile_cess_percent,tobacco_cess_percent,coal_cess_percent,aerated_drinks_cess_percent,luxury_goods_cess_percent,other_cess_percent,cumulative_cess_collected_inr_crore,cumulative_compensation_paid_inr_crore,notes
+2017-18,62600,9.6,48785,7.5,13815,42,28,15,8,4,3,62600,48785,First year surplus due to pent-up demand
+2018-19,95000,13.6,81141,11.6,13859,44,26,14,9,4,3,157600,129926,Strong cess collection from automobile sector
+2019-20,97000,13.5,81043,11.3,15957,43,27,15,8,4,3,254600,210969,Continued surplus pre-COVID
+2020-21,75000,10.1,110000,14.8,-35000,38,30,16,9,4,3,329600,320969,COVID-19 shortfall - back-to-back loans needed
+2021-22,100000,13.4,159000,21.3,-59000,40,28,15,10,4,3,429600,479969,Major shortfall - continued back-to-back loans
+2022-23,115000,14.5,0,0,115000,41,27,15,10,4,3,544600,479969,Compensation ended June 2022 - cess for loan repayment
+2023-24,125000,15.0,0,0,125000,40,28,16,9,4,3,669600,479969,Cess continues for loan repayment until March 2026
+2024-25,130000,15.5,0,0,130000,39,29,16,9,4,3,799600,479969,Projected - cess scheduled to end March 2026
+Total_2017_2022,429600,60.2,479969,66.5,-50369,Mixed,Mixed,Mixed,Mixed,Mixed,Mixed,429600,479969,5-year compensation period shortfall covered by loans
+Total_2017_2024,669600,84.5,479969,66.5,189631,Mixed,Mixed,Mixed,Mixed,Mixed,Mixed,669600,479969,Post-compensation cess used for loan repayment

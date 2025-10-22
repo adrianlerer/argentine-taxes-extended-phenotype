@@ -1,0 +1,6 @@
+case_name,start_year,end_year,duration_years,total_funding_usd_billions_2024,annual_avg_usd_billions,credibility_mechanism,conditionality_type,primary_beneficiaries,reform_type,success_rate_percent,argentina_applicability_score
+Marshall Plan,1948,1951,4,173.0,43.25,US Treaty Obligation,OEEC peer review + fiscal discipline,Western Europe 17 countries,Post-war reconstruction + trade liberalization,95,HIGH
+Chile Pension Reform,1981,2050,70,70.0,1.00,Treasury Recognition Bonds,PAYG closure + AFP regulation,Workers with PAYG contributions,Pay-as-you-go → Funded individual accounts,90,MEDIUM
+Poland EU Accession,2004,2020,16,162.6,10.16,EU Accession Treaty,Acquis adoption + anti-corruption,Polish regions + farmers + SMEs,EU integration + structural adjustment,85,MEDIUM-HIGH
+Estonia Flat Tax,1994,2004,10,0.5,0.05,Basic exemption + EU convergence,Tax simplification + social programs,Low-income workers + retirees,Progressive → Flat tax (26%),80,MEDIUM
+South Korea Industrial Policy,1968,1988,20,50.0,2.50,WTO/GATT membership deadline,Export performance targets,Chaebol exporters + manufacturing,Import substitution → Export-led growth,90,LOW
